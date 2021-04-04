@@ -1,19 +1,8 @@
 package tests;
 
-import com.codeborne.selenide.Condition;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Cookie;
 
-import java.util.Map;
-
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
-import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
-import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
 public class SubscriptionTests extends TestBase{
